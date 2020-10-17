@@ -3,6 +3,8 @@ a yugioh game heavily inspired by the classic PSX game Yu-Gi-Oh! Forbidden Memor
 
 - started in june 2019
 
+***important! min screen size of  1270x635, unplayable if screen size is lower***
+
 ***alpha state, currently on hiatus as of june 2020***
 
 requires pygame, sqlite
