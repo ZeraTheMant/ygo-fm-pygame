@@ -6,7 +6,8 @@ a yugioh game heavily inspired by the classic PSX game Yu-Gi-Oh! Forbidden Memor
 ***alpha state, currently on hiatus as of june 2020***
 
 requires pygame, sqlite
-code is a horrible spaghetti mess unfortunately
+
+***code is a horrible spaghetti mess unfortunately***
 
 has rudimentary ai, already better than the stock forbidden memories version
 
