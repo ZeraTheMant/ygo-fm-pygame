@@ -320,6 +320,9 @@ class SpellCard(SpellOrTrapCard):
 class FieldSpellCard(SpellCard):
     def effect(self, testing=False):
         return True
+        
+    def aiUseCondition(gi):
+        return True
 
 class TrapCard(SpellOrTrapCard):
     card_type = "Trap"

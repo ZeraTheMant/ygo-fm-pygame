@@ -542,7 +542,7 @@ def build_deck_screen(ACTIVE_PLAYER, game_settings, screen, opening_screen, enem
     up_button_box = DataSurfaceText(screen, [30, 30], 1240, 0, Settings.RED, u"\u2605", Settings.BLACK, True, small_font)
     down_button_box = DataSurfaceText(screen, [30, 30], 1240, 605, Settings.RED, u"\u2605", Settings.BLACK, True, small_font)
     
-    game_instance = Game(ACTIVE_PLAYER, 8000, 2000, catlev_id)    
+    game_instance = Game(ACTIVE_PLAYER, 8000, 8000, catlev_id)    
     
     my_deck = gf.getMyDeck(ACTIVE_PLAYER["ID"])
     my_deck = gf.buildDeck(my_deck, game_instance.player)  
