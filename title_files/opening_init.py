@@ -962,7 +962,7 @@ def playCompare(result, card, comp_choice, screen, player_dict, game_settings, g
         
         if result == "repeat":
             if comp_choice.rect.top < 0 and card.rect.bottom > game_settings.screen_height:
-                goToLastSavedScreen(player_dict, screen, game_settings)
+                goToLastSavedScreen(game_instance, player_dict, screen, game_settings)
         
         pygame.display.flip()
         clock.tick(60)
