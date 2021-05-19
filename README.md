@@ -1,6 +1,8 @@
 # ygo-fm-pygame
 a yugioh game heavily inspired by the classic PSX game Yu-Gi-Oh! Forbidden Memories. Made using pygame
 
+see preview at https://www.youtube.com/watch?v=2ymxdTZaEcE
+
 - started in june 2019
 
 ***important! min screen size of  1270x635, unplayable if screen size is lower***
